@@ -1,8 +1,8 @@
-lalt - return : /applications/alacritty.app/Contents/MacOS/alacritty msg create-window || /applications/alacritty.app/Contents/MacOS/alacritty
+lalt - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 lalt - space : yabai -m window --toggle float
 
-shift + lalt - f : yabai -m window --toggle zoom-fullscreen
-lalt - f : yabai -m window --toggle zoom-parent
+lalt - f : yabai -m window --toggle zoom-fullscreen
+shift + lalt - f : yabai -m window --toggle zoom-parent
 
 # Space configuration {{{
 lalt - 1 : yabai -m space --focus 1 
